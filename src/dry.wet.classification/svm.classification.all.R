@@ -21,7 +21,7 @@ colnames(data.train.ft) <- col.name
 colnames(data.test.ft) <- col.name
 # feature selection
 n.ft <- length(col.name) -1
-for(i in c(1:(2^n.ft -1))) {
+for(i in c(951:1000)) { # (2^n.ft -1)
     # info features for debug
     xbar.bi <- as.binary(i, n=n.ft)
     index.feature <- which(xbar.bi)
