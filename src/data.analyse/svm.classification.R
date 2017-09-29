@@ -1,7 +1,7 @@
 # description
 # model.type="C-svc"
 # kernel = "rbf"
-get.classifier.svm <- function(data.train, data.test, ft.ind, acc.epsilon, c.list, sigma.list, kernel, model.type){ 
+get.classifier.svm <- function(data.train, data.test, ft.ind, c.list, sigma.list, kernel, model.type){
   library(kernlab)
   get.info <- NULL
   if(ncol(data.train) != ncol(data.test)){
@@ -33,9 +33,7 @@ get.classifier.svm <- function(data.train, data.test, ft.ind, acc.epsilon, c.lis
         classifier.info <- sprintf("features: %s, c = %d, sigma = %f, train.acc = %f, test.acc = %f", ft.name, i_c, i_sig, train.acc, test.acc)
         print(classifier.info)
         train.test.dist <- abs(train.acc - test.acc)
-        if(train.test.dist < acc.epsilon & (train.acc > max.acc.train) & (test.acc > max.acc.test)){
-          get.info <- list(features = ft.name, feature.index = ft.ind, c = i_c, sigma = i_sig, train.acc = train.acc, test.acc = test.acc, model = svp)
-        }
+        get.info <- list(features = ft.name, feature.index = ft.ind, c = i_c, sigma = i_sig, train.acc = train.acc, test.acc = test.acc, model = svp)
       }
     }
   }
