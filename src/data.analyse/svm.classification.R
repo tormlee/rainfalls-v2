@@ -33,7 +33,8 @@ get.classifier.svm <- function(data.train, data.test, ft.ind, c.list, sigma.list
         classifier.info <- sprintf("features: %s, c = %d, sigma = %f, train.acc = %f, test.acc = %f", ft.name, i_c, i_sig, train.acc, test.acc)
         print(classifier.info)
         train.test.dist <- abs(train.acc - test.acc)
-        get.info <- list(features = ft.name, feature.index = ft.ind, c = i_c, sigma = i_sig, train.acc = train.acc, test.acc = test.acc, model = svp)
+        get.info <- list(features = ft.name, feature.index = ft.ind, c = i_c, sigma = i_sig, train.acc = train.acc, test.acc = test.acc, model = svp,
+                         mean.acc = mean(c(train.acc, test.acc)), hmean.acc = harmonic.mean(c(train.acc, test.acc)))
       }
     }
   }

@@ -29,7 +29,8 @@ get.classifier.naive_bayes <- function(data.train, data.test, ft.ind){
     classifier.info <- sprintf("features: %s, train.acc = %f, test.acc = %f", ft.name, train.acc, test.acc)
     print(classifier.info)
     train.test.dist <- abs(train.acc - test.acc)
-    get.info <- list(features = ft.name, feature.index = ft.ind, train.acc = train.acc, test.acc = test.acc, model = model)
+    get.info <- list(features = ft.name, feature.index = ft.ind, train.acc = train.acc, test.acc = test.acc, model = model,
+                     mean.acc = mean(c(train.acc, test.acc)), hmean.acc = harmonic.mean(c(train.acc, test.acc)))
   }
   return (get.info)
 }
