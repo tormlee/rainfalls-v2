@@ -1,0 +1,22 @@
+train
+
+
+train
+features = mslp, train.acc = 0.992371, test.acc = 0.988049, train.rain.acc = 0.823529, train.dry.acc = 0.992743, test.rain.acc = 0.812500, test.dry.acc = 0.989042
+features = dswrf, mslp, train.acc = 0.992630, test.acc = 0.987346, train.rain.acc = 0.666667, train.dry.acc = 0.994282, test.rain.acc = 0.666667, test.dry.acc = 0.990074
+features = R500, dswrf, mslp, train.acc = 0.992630, test.acc = 0.986292, train.rain.acc = 0.632653, train.dry.acc = 0.994925, test.rain.acc = 0.580645, test.dry.acc = 0.990760
+test
+features = mslp, train.acc = 0.992371, test.acc = 0.988049, train.rain.acc = 0.823529, train.dry.acc = 0.992743, test.rain.acc = 0.812500, test.dry.acc = 0.989042
+features = uswrf, mslp, train.acc = 0.992113, test.acc = 0.988752, train.rain.acc = 0.666667, train.dry.acc = 0.993253, test.rain.acc = 0.800000, test.dry.acc = 0.990088
+features = rhum, uswrf, mslp, train.acc = 0.992630, test.acc = 0.988752, train.rain.acc = 0.685714, train.dry.acc = 0.994025, test.rain.acc = 0.772727, test.dry.acc = 0.990436
+and
+features = mslp, train.acc = 0.992371, test.acc = 0.988049, train.rain.acc = 0.823529, train.dry.acc = 0.992743, test.rain.acc = 0.812500, test.dry.acc = 0.989042
+or
+features = mslp, train.acc = 0.992371, test.acc = 0.988049, train.rain.acc = 0.823529, train.dry.acc = 0.992743, test.rain.acc = 0.812500, test.dry.acc = 0.989042
+features = dswrf, mslp, train.acc = 0.992630, test.acc = 0.987346, train.rain.acc = 0.666667, train.dry.acc = 0.994282, test.rain.acc = 0.666667, test.dry.acc = 0.990074
+mean
+features = mslp, train.acc = 0.992371, test.acc = 0.988049, train.rain.acc = 0.823529, train.dry.acc = 0.992743, test.rain.acc = 0.812500, test.dry.acc = 0.989042
+harmonic-mean
+features = mslp, train.acc = 0.992371, test.acc = 0.988049, train.rain.acc = 0.823529, train.dry.acc = 0.992743, test.rain.acc = 0.812500, test.dry.acc = 0.989042
+features = uswrf, mslp, train.acc = 0.992113, test.acc = 0.988752, train.rain.acc = 0.666667, train.dry.acc = 0.993253, test.rain.acc = 0.800000, test.dry.acc = 0.990088
+features = rhum, uswrf, mslp, train.acc = 0.992759, test.acc = 0.988752, train.rain.acc = 0.684211, train.dry.acc = 0.994283, test.rain.acc = 0.800000, test.dry.acc = 0.990088

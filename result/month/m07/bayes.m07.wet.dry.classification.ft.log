@@ -1,0 +1,35 @@
+train
+features = R850, train.acc = 0.696237, test.acc = 0.699752
+features = V850, R850, train.acc = 0.742832, test.acc = 0.707196
+features = Uas, V850, R850, train.acc = 0.755376, test.acc = 0.692308
+features = temp500, Uas, V850, R850, train.acc = 0.767025, test.acc = 0.689826
+test
+features = R850, train.acc = 0.696237, test.acc = 0.699752
+features = U700, R850, train.acc = 0.723118, test.acc = 0.756824
+features = V925, U700, R850, train.acc = 0.738351, test.acc = 0.776675
+features = U500, V925, U700, R850, train.acc = 0.735663, test.acc = 0.789082
+features = P850, U500, V925, U700, R850, train.acc = 0.739247, test.acc = 0.796526
+and
+features = R850, train.acc = 0.696237, test.acc = 0.699752
+features = U700, R850, train.acc = 0.723118, test.acc = 0.756824
+features = V500, U700, R850, train.acc = 0.760753, test.acc = 0.771712
+features = mslp, V500, U700, R850, train.acc = 0.760753, test.acc = 0.786600
+features = U500, mslp, V500, U700, R850, train.acc = 0.762545, test.acc = 0.786600
+or
+features = dswrf, train.acc = 0.690860, test.acc = 0.645161
+features = U850, dswrf, train.acc = 0.715054, test.acc = 0.689826
+features = Vas, U850, dswrf, train.acc = 0.721326, test.acc = 0.712159
+features = R850, Vas, U850, dswrf, train.acc = 0.737455, test.acc = 0.724566
+features = V925, R850, Vas, U850, dswrf, train.acc = 0.735663, test.acc = 0.729529
+mean
+features = R850, train.acc = 0.696237, test.acc = 0.699752
+features = U700, R850, train.acc = 0.723118, test.acc = 0.756824
+features = V500, U700, R850, train.acc = 0.760753, test.acc = 0.771712
+features = mslp, V500, U700, R850, train.acc = 0.760753, test.acc = 0.786600
+features = dlwrf, mslp, V500, U700, R850, train.acc = 0.772401, test.acc = 0.779156
+harmonic-mean
+features = R850, train.acc = 0.696237, test.acc = 0.699752
+features = U700, R850, train.acc = 0.723118, test.acc = 0.756824
+features = V500, U700, R850, train.acc = 0.760753, test.acc = 0.771712
+features = mslp, V500, U700, R850, train.acc = 0.760753, test.acc = 0.786600
+features = dlwrf, mslp, V500, U700, R850, train.acc = 0.772401, test.acc = 0.779156
