@@ -24,13 +24,19 @@ get.classifier.naive_bayes <- function(data.train, data.test, ft.ind){
     test.data.ypred <- predict(model$finalModel, data.test.x)$class
     # acc
     train.acc <- c(sum(train.data.ypred==data.train.y)/length(data.train.y))
+    train.rain.acc <- c(sum(train.data.ypred[which(data.train.y=="yes")] == "yes")/(sum(train.data.ypred=="yes")))
+    train.dry.acc <- c(sum(train.data.ypred[which(data.train.y=="no")]=="no")/(sum(train.data.ypred=="no")))
     test.acc <- c(sum(test.data.ypred==data.test.y)/length(data.test.y))
+    test.rain.acc <- c(sum(test.data.ypred[which(data.test.y=="yes")] == "yes")/(sum(test.data.ypred=="yes")))
+    test.dry.acc <- c(sum(test.data.ypred[which(data.test.y=="no")]=="no")/(sum(test.data.ypred=="no")))
     # print info
     classifier.info <- sprintf("features: %s, train.acc = %f, test.acc = %f", ft.name, train.acc, test.acc)
     print(classifier.info)
     train.test.dist <- abs(train.acc - test.acc)
     get.info <- list(features = ft.name, feature.index = ft.ind, train.acc = train.acc, test.acc = test.acc, model = model,
-                     mean.acc = mean(c(train.acc, test.acc)), hmean.acc = harmonic.mean(c(train.acc, test.acc)))
+                     mean.acc = mean(c(train.acc, test.acc)), hmean.acc = harmonic.mean(c(train.acc, test.acc)),
+                     train.rain.acc = train.rain.acc, train.dry.acc = train.dry.acc, test.rain.acc = test.rain.acc,
+                     test.dry.acc = test.dry.acc)
   }
   return (get.info)
 }
