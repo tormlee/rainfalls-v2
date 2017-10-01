@@ -1,0 +1,44 @@
+train
+features = shum700, train.acc = 0.688889, test.acc = 0.705128
+features = Vas, shum700, train.acc = 0.727778, test.acc = 0.761538
+features = V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.789744
+features = temp500, V700, Vas, shum700, train.acc = 0.744444, test.acc = 0.787179
+features = P850, temp500, V700, Vas, shum700, train.acc = 0.753704, test.acc = 0.794872
+features = dlwrf, P850, temp500, V700, Vas, shum700, train.acc = 0.758333, test.acc = 0.794872
+test
+features = shum700, train.acc = 0.688889, test.acc = 0.705128
+features = Vas, shum700, train.acc = 0.727778, test.acc = 0.761538
+features = V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.789744
+features = V850, V700, Vas, shum700, train.acc = 0.737963, test.acc = 0.792308
+features = ulwrf, V850, V700, Vas, shum700, train.acc = 0.737037, test.acc = 0.794872
+features = Uas, ulwrf, V850, V700, Vas, shum700, train.acc = 0.740741, test.acc = 0.797436
+and
+features = shum700, train.acc = 0.688889, test.acc = 0.705128
+features = Vas, shum700, train.acc = 0.727778, test.acc = 0.761538
+features = V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.789744
+features = P850, V700, Vas, shum700, train.acc = 0.742593, test.acc = 0.792308
+features = Temp, P850, V700, Vas, shum700, train.acc = 0.745370, test.acc = 0.797436
+features = temp850, Temp, P850, V700, Vas, shum700, train.acc = 0.746296, test.acc = 0.797436
+features = ulwrf, temp850, Temp, P850, V700, Vas, shum700, train.acc = 0.747222, test.acc = 0.797436
+or
+features = shum700, train.acc = 0.688889, test.acc = 0.705128
+features = Vas, shum700, train.acc = 0.727778, test.acc = 0.761538
+features = V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.789744
+features = uswrf, V700, Vas, shum700, train.acc = 0.736111, test.acc = 0.789744
+features = V500, uswrf, V700, Vas, shum700, train.acc = 0.740741, test.acc = 0.792308
+features = ulwrf, V500, uswrf, V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.794872
+mean
+features = shum700, train.acc = 0.688889, test.acc = 0.705128
+features = Vas, shum700, train.acc = 0.727778, test.acc = 0.761538
+features = V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.789744
+features = P850, V700, Vas, shum700, train.acc = 0.742593, test.acc = 0.792308
+features = temp500, P850, V700, Vas, shum700, train.acc = 0.753704, test.acc = 0.794872
+features = R850, temp500, P850, V700, Vas, shum700, train.acc = 0.750926, test.acc = 0.802564
+features = temp925, R850, temp500, P850, V700, Vas, shum700, train.acc = 0.751852, test.acc = 0.807692
+harmonic-mean
+features = shum700, train.acc = 0.688889, test.acc = 0.705128
+features = Vas, shum700, train.acc = 0.727778, test.acc = 0.761538
+features = V700, Vas, shum700, train.acc = 0.741667, test.acc = 0.789744
+features = P850, V700, Vas, shum700, train.acc = 0.742593, test.acc = 0.792308
+features = temp500, P850, V700, Vas, shum700, train.acc = 0.753704, test.acc = 0.794872
+features = dlwrf, temp500, P850, V700, Vas, shum700, train.acc = 0.758333, test.acc = 0.794872

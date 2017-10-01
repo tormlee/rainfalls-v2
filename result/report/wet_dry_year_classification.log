@@ -1,0 +1,19 @@
+#
+-------------------- SVM ---------------------------
+features = Temp, mslp, V925, temp925, U500, temp500, dlwrf, R500, R850, Tas, rhum, V850, temp700, U850, dswrf, V700, U700, Vas, P500, shum700
+train.acc = 0.810480
+test.acc = 0.772163
+
+
+
+------------------- naive bayes --------------------
+features = U500, V500, P300, U700, Vas, P500, shum700
+train.acc = 0.731234
+test.acc = 0.735102
+
+
+
+------------------- LDA ----------------------------
+features = U700, U850, Temp, rhum, ulwrf, shum925, mslp, uswrf, Uas, shum400, dswrf, V925, V700, P500, shum700
+train.acc = 0.752148
+test.acc = 0.749632

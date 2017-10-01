@@ -1,0 +1,28 @@
+train
+features = mslp, train.acc = 0.992113, test.acc = 0.989104, train.rain.acc = 0.714286, train.dry.acc = 0.992869, test.rain.acc = 0.842105, test.dry.acc = 0.990092
+features = V500, mslp, train.acc = 0.992501, test.acc = 0.988049, train.rain.acc = 0.772727, train.dry.acc = 0.993128, test.rain.acc = 0.777778, test.dry.acc = 0.989388
+features = U700, V500, mslp, train.acc = 0.992759, test.acc = 0.987346, train.rain.acc = 0.818182, train.dry.acc = 0.993257, test.rain.acc = 0.681818, test.dry.acc = 0.989727
+features = R500, U700, V500, mslp, train.acc = 0.993018, test.acc = 0.987346, train.rain.acc = 0.833333, train.dry.acc = 0.993515, test.rain.acc = 0.681818, test.dry.acc = 0.989727
+features = shum925, R500, U700, V500, mslp, train.acc = 0.993147, test.acc = 0.988049, train.rain.acc = 0.774194, train.dry.acc = 0.994028, test.rain.acc = 0.692308, test.dry.acc = 0.990777
+features = V700, shum925, R500, U700, V500, mslp, train.acc = 0.993276, test.acc = 0.984534, train.rain.acc = 0.736842, train.dry.acc = 0.994543, test.rain.acc = 0.500000, test.dry.acc = 0.989698
+test
+features = mslp, train.acc = 0.992113, test.acc = 0.989104, train.rain.acc = 0.714286, train.dry.acc = 0.992869, test.rain.acc = 0.842105, test.dry.acc = 0.990092
+features = U500, mslp, train.acc = 0.991208, test.acc = 0.989455, train.rain.acc = 0.533333, train.dry.acc = 0.992991, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+and
+features = mslp, train.acc = 0.992113, test.acc = 0.989104, train.rain.acc = 0.714286, train.dry.acc = 0.992869, test.rain.acc = 0.842105, test.dry.acc = 0.990092
+features = shum850, mslp, train.acc = 0.992113, test.acc = 0.989455, train.rain.acc = 0.645161, train.dry.acc = 0.993509, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+features = shum300, shum850, mslp, train.acc = 0.992242, test.acc = 0.989455, train.rain.acc = 0.666667, train.dry.acc = 0.993510, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+features = V500, shum300, shum850, mslp, train.acc = 0.992371, test.acc = 0.989455, train.rain.acc = 0.689655, train.dry.acc = 0.993511, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+or
+features = mslp, train.acc = 0.992113, test.acc = 0.989104, train.rain.acc = 0.714286, train.dry.acc = 0.992869, test.rain.acc = 0.842105, test.dry.acc = 0.990092
+features = V500, mslp, train.acc = 0.992501, test.acc = 0.988049, train.rain.acc = 0.772727, train.dry.acc = 0.993128, test.rain.acc = 0.777778, test.dry.acc = 0.989388
+mean
+features = mslp, train.acc = 0.992113, test.acc = 0.989104, train.rain.acc = 0.714286, train.dry.acc = 0.992869, test.rain.acc = 0.842105, test.dry.acc = 0.990092
+features = shum850, mslp, train.acc = 0.992113, test.acc = 0.989455, train.rain.acc = 0.645161, train.dry.acc = 0.993509, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+features = shum300, shum850, mslp, train.acc = 0.992242, test.acc = 0.989455, train.rain.acc = 0.666667, train.dry.acc = 0.993510, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+features = V500, shum300, shum850, mslp, train.acc = 0.992371, test.acc = 0.989455, train.rain.acc = 0.689655, train.dry.acc = 0.993511, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+harmonic-mean
+features = mslp, train.acc = 0.992113, test.acc = 0.989104, train.rain.acc = 0.714286, train.dry.acc = 0.992869, test.rain.acc = 0.842105, test.dry.acc = 0.990092
+features = shum850, mslp, train.acc = 0.992113, test.acc = 0.989455, train.rain.acc = 0.645161, train.dry.acc = 0.993509, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+features = shum300, shum850, mslp, train.acc = 0.992242, test.acc = 0.989455, train.rain.acc = 0.666667, train.dry.acc = 0.993510, test.rain.acc = 0.791667, test.dry.acc = 0.991138
+features = V500, shum300, shum850, mslp, train.acc = 0.992371, test.acc = 0.989455, train.rain.acc = 0.689655, train.dry.acc = 0.993511, test.rain.acc = 0.791667, test.dry.acc = 0.991138

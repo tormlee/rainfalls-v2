@@ -1,0 +1,38 @@
+train
+features = R850, train.acc = 0.700717, test.acc = 0.704715
+features = V850, R850, train.acc = 0.733871, test.acc = 0.732010
+features = temp700, V850, R850, train.acc = 0.741935, test.acc = 0.732010
+features = Tas, temp700, V850, R850, train.acc = 0.747312, test.acc = 0.741935
+features = shum925, Tas, temp700, V850, R850, train.acc = 0.748208, test.acc = 0.739454
+test
+features = R850, train.acc = 0.700717, test.acc = 0.704715
+features = V500, R850, train.acc = 0.712366, test.acc = 0.741935
+features = shum400, V500, R850, train.acc = 0.719534, test.acc = 0.754342
+features = Vas, shum400, V500, R850, train.acc = 0.718638, test.acc = 0.754342
+features = U925, Vas, shum400, V500, R850, train.acc = 0.720430, test.acc = 0.756824
+and
+features = R850, train.acc = 0.700717, test.acc = 0.704715
+features = V500, R850, train.acc = 0.712366, test.acc = 0.741935
+features = R500, V500, R850, train.acc = 0.720430, test.acc = 0.749380
+features = V925, R500, V500, R850, train.acc = 0.723118, test.acc = 0.761787
+features = U500, V925, R500, V500, R850, train.acc = 0.728495, test.acc = 0.761787
+features = P500, U500, V925, R500, V500, R850, train.acc = 0.729391, test.acc = 0.766749
+or
+features = R850, train.acc = 0.700717, test.acc = 0.704715
+features = V925, R850, train.acc = 0.715950, test.acc = 0.736973
+features = Vas, V925, R850, train.acc = 0.724014, test.acc = 0.717122
+features = dswrf, Vas, V925, R850, train.acc = 0.724910, test.acc = 0.707196
+mean
+features = R850, train.acc = 0.700717, test.acc = 0.704715
+features = V850, R850, train.acc = 0.733871, test.acc = 0.732010
+features = temp700, V850, R850, train.acc = 0.741935, test.acc = 0.732010
+features = Tas, temp700, V850, R850, train.acc = 0.747312, test.acc = 0.741935
+features = temp500, Tas, temp700, V850, R850, train.acc = 0.741039, test.acc = 0.749380
+features = P500, temp500, Tas, temp700, V850, R850, train.acc = 0.745520, test.acc = 0.751861
+harmonic-mean
+features = R850, train.acc = 0.700717, test.acc = 0.704715
+features = V850, R850, train.acc = 0.733871, test.acc = 0.732010
+features = temp700, V850, R850, train.acc = 0.741935, test.acc = 0.732010
+features = Tas, temp700, V850, R850, train.acc = 0.747312, test.acc = 0.741935
+features = temp500, Tas, temp700, V850, R850, train.acc = 0.741039, test.acc = 0.749380
+features = P500, temp500, Tas, temp700, V850, R850, train.acc = 0.745520, test.acc = 0.751861

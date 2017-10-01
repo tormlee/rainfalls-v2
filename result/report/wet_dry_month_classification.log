@@ -1,0 +1,181 @@
+#
+ -------------------- MONTH 01 ------------------------
++ SVM
+ - features = U850, V850, P300, Uas, mslp, temp925, shum850, V925, shum700, P500, R850
+ - train.acc = 0.793907
+ - test.acc = 0.789082
++ Naive bayes
+ - features = shum300, U500, shum500, V850, temp700, Temp, shum925, Uas, temp850, P300, V700, V925, P500, shum700
+ - train.acc = 0.803763
+ - test.acc = 0.754342
++ LDA
+ - features = V500, P300, Uas, Vas, Temp, shum700, P500, R850
+ - train.acc = 0.754480
+ - test.acc = 0.766749
+
+
+
+ -------------------- MONTH 02 ------------------------
++ SVM
+ - features = mslp, temp500, shum700, P500, R850
+ - train.acc = 0.793510
+ - test.acc = 0.793478
++ Naive bayes
+ - features = temp500, U500, U700, uswrf, P500, R850
+ - train.acc = 0.781711
+ - test.acc = 0.779891
++ LDA
+ - features = V925, shum700, P500, R850
+ - train.acc = 0.777778
+ - test.acc = 0.785326
+
+
+ -------------------- MONTH 03 ------------------------
++ SVM
+ - features = temp925, R500, V700, Temp, V925, temp700, U500, mslp, P500, Vas, uswrf, U700
+ - train.acc = 0.839606
+ - test.acc = 0.789082
++ Naive bayes
+ - features = V500, mslp, V700, Vas, P500, shum500, Temp, U700
+ - train.acc = 0.798387
+ - test.acc = 0.766749
++ LDA
+ - features = R850, Temp, Vas, shum700, P500, U700
+ - train.acc = 0.780466
+ - test.acc = 0.774194
+
+
+ -------------------- MONTH 04 ------------------------
++ SVM
+ - features = Temp, temp850, dlwrf, U925, ulwrf, Vas, V500, shum300, U700, P500, R850
+ - train.acc = 0.787037
+ - test.acc = 0.782051
++ Naive bayes
+ - features = V700, P300, shum400, temp850, Vas, shum700
+ - train.acc = 0.728704
+ - test.acc = 0.751282
++ LDA
+ - features = P850, V850, R500, Vas, shum700
+ - train.acc = 0.716667
+ - test.acc = 0.764103
+
+
+ -------------------- MONTH 05 ------------------------
++ SVM
+ - features = mslp, temp500, shum925, P300, V500, temp850, R500, shum700
+ - train.acc = 0.806452
+ - test.acc = 0.803970
++ Naive bayes
+ - features = Tas, temp500, Vas, V500, ulwrf, P500, temp850, shum700
+ - train.acc = 0.810036
+ - test.acc = 0.781638
++ LDA
+ - features = U500, ulwrf, temp925, R850, dlwrf, temp700, shum700
+ - train.acc = 0.785842
+ - test.acc = 0.791563
+
+
+ -------------------- MONTH 06 ------------------------
++ SVM
+ - features = dlwrf, U500, temp500, Tas, shum700, U700, V700, R850
+ - train.acc = 0.837037
+ - test.acc = 0.876923
++ Naive bayes
+ - features = P850, temp500, U700, V700, U500, U925, R850
+ - train.acc = 0.796296
+ - test.acc = 0.825641
++ LDA
+ - features = V500, dswrf, U500, U850, U925, V700, shum700
+ - train.acc = 0.752778
+ - test.acc = 0.830769
+
+
+ -------------------- MONTH 07 ------------------------
++ SVM
+ - features = temp700, V700, Temp, temp925, ulwrf, R500, U700, U850, V850, R850
+ - train.acc = 0.827061
+ - test.acc = 0.794045
++ Naive bayes
+ - features = dlwrf, mslp, V500, U700, R850
+ - train.acc = 0.772401
+ - test.acc = 0.779156
++ LDA
+ - features = P500, temp500, Tas, temp700, V850, R850
+ - train.acc = 0.745520
+ - test.acc = 0.751861
+
+
+ -------------------- MONTH 08 ------------------------
++ SVM
+ - features = shum700, temp925, U500, Temp, shum850, temp700, U700, P850, V925, R500
+ - train.acc = 0.839606
+ - test.acc = 0.821340
++ Naive bayes
+ - features = rhum, V850, temp925, ulwrf, temp500, P300, U700, temp700, V700, shum700
+ - train.acc = 0.808244
+ - test.acc = 0.784119
++ LDA
+ - features = V850, temp850, R500, shum700
+ - train.acc = 0.771505
+ - test.acc = 0.779156
+
+
+ -------------------- MONTH 09 ------------------------
++ SVM
+ - features = shum850, shum700, temp700, rhum, mslp, V700, U925, R500
+ - train.acc = 0.789815
+ - test.acc = 0.789744
++ Naive bayes
+ - features = P300, P500, V700, shum300, shum700
+ - train.acc = 0.771296
+ - test.acc = 0.730769
++ LDA
+ - features = Tas, Vas, Temp, U500, uswrf, dswrf, shum925, temp700, temp925, mslp, R500, shum300, shum700
+ - train.acc = 0.750000
+ - test.acc = 0.782051
+
+
+ -------------------- MONTH 10 ------------------------
++ SVM
+ - features = ulwrf, P300, dswrf, V850, temp700, V925, dlwrf, P850, shum850
+ - train.acc = 0.780466
+ - test.acc = 0.732010
++ Naive bayes
+ - features = Temp, U925, mslp, rhum, Vas, shum700
+ - train.acc = 0.743728
+ - test.acc = 0.724566
++ LDA
+ - features = Temp, V500, V925, U700, P300, shum925, shum700
+ - train.acc = 0.742832
+ - test.acc = 0.704715
+
+
+ -------------------- MONTH 11 ------------------------
++ SVM
+ - features = U700, shum300, temp500, Vas, shum700
+ - train.acc = 0.768519
+ - test.acc = 0.802564
++ Naive bayes
+ - features = P300, Temp, V700, Vas, shum700
+ - train.acc = 0.761111
+ - test.acc = 0.789744
++ LDA
+ - features = temp925, R850, temp500, P850, V700, Vas, shum700
+ - train.acc = 0.751852
+ - test.acc = 0.807692
+
+
+ -------------------- MONTH 12 ------------------------
++ SVM
+ - features = temp500, Uas, U925, V925, mslp, R500, temp925, Tas, P300, shum700, Vas
+ - train.acc = 0.814516
+ - test.acc = 0.771712
++ Naive bayes
+ - features = U500, P300, shum700, Vas
+ - train.acc = 0.765233
+ - test.acc = 0.754342
++ LDA
+ - features = temp700, U700, P850, V500, Uas, shum500, shum700, P300, R850, Vas
+ - train.acc = 0.753584
+ - test.acc = 0.769231
+

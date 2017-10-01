@@ -1,0 +1,38 @@
+> table(data.train$clazz)
+
+  -1    1 
+7664   70 
+> table(data.test$clazz)
+
+  -1    1 
+2801   44
+
+
++ SVM
+ - features = temp925, temp500, U850, R500, mslp
+ - train.acc = 0.992501
+ - test.acc = 0.989104
+ - train.rain.acc = 1.000000
+ - train.dry.acc = 0.992489
+ - test.rain.acc = 0.882353
+ - test.dry.acc = 0.989745
+
+
++ Naive bayes
+ - features = mslp
+ - train.acc = 0.992371
+ - test.acc = 0.988049
+ - train.rain.acc = 0.823529
+ - train.dry.acc = 0.992743
+ - test.rain.acc = 0.812500
+ - test.dry.acc = 0.989042
+
+
++ LDA
+ - features = V500, mslp
+ - train.acc = 0.992501
+ - test.acc = 0.988049
+ - train.rain.acc = 0.772727
+ - train.dry.acc = 0.993128
+ - test.rain.acc = 0.777778
+ - test.dry.acc = 0.989388

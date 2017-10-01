@@ -1,0 +1,35 @@
+#
+------------------------ SVM ---------------------------
++ Dry
+ - features = shum300, temp925, P300, temp500, dswrf, U500, ulwrf, V500, Uas, Vas, P500, shum700, R850
+ - train.acc = 0.796628
+ - test.acc = 0.762410
++ Wet
+ - features = U850, dswrf, V500, rhum, U500, R850, R500, Tas, temp700, U700, Vas, P500, U925, V700, shum700
+ - train.acc = 0.826389
+ - test.acc = 0.795987
+
+
+
+----------------------- Naive bayes --------------------
++ Dry
+ - features = P500, P300, Vas, shum700, shum500, temp500, V925, P850, R850
+ - train.acc = 0.757701
+ - test.acc = 0.749258
++ Wet
+ - features = U925, temp850, P500, U500, V700, shum700
+ - train.acc = 0.754680
+ - test.acc = 0.752090
+
+
+
+------------------------ LDA -------------------------------
++ Dry
+ - features = P300, U925, U850, shum400, U500, R500, U700, shum300, Vas, P500, shum700
+ - train.acc = 0.756322
+ - test.acc = 0.760713
++ Wet
+ - features = V500, shum500, dlwrf, uswrf, temp700, shum400, U850, Uas, R850, U500, P500, V700, shum700
+ - train.acc = 0.753472
+ - test.acc = 0.744147
+

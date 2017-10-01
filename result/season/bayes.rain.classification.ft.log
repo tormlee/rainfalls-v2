@@ -1,0 +1,39 @@
+train
+features = shum700, train.acc = 0.705314, test.acc = 0.718645
+features = V700, shum700, train.acc = 0.733243, test.acc = 0.739967
+features = U500, V700, shum700, train.acc = 0.738527, test.acc = 0.750000
+features = P500, U500, V700, shum700, train.acc = 0.742603, test.acc = 0.744983
+features = temp850, P500, U500, V700, shum700, train.acc = 0.750453, test.acc = 0.739967
+features = U925, temp850, P500, U500, V700, shum700, train.acc = 0.754680, test.acc = 0.752090
+test
+features = shum700, train.acc = 0.705616, test.acc = 0.718227
+features = V700, shum700, train.acc = 0.733243, test.acc = 0.739967
+features = U925, V700, shum700, train.acc = 0.734149, test.acc = 0.757525
+features = U500, U925, V700, shum700, train.acc = 0.735356, test.acc = 0.758779
+features = temp700, U500, U925, V700, shum700, train.acc = 0.738074, test.acc = 0.760870
+and
+features = shum700, train.acc = 0.705616, test.acc = 0.718227
+features = V700, shum700, train.acc = 0.733243, test.acc = 0.739967
+features = U500, V700, shum700, train.acc = 0.738527, test.acc = 0.750000
+features = Uas, U500, V700, shum700, train.acc = 0.739583, test.acc = 0.750000
+features = P300, Uas, U500, V700, shum700, train.acc = 0.740338, test.acc = 0.750418
+features = ulwrf, P300, Uas, U500, V700, shum700, train.acc = 0.743659, test.acc = 0.751672
+or
+features = shum700, train.acc = 0.705314, test.acc = 0.718645
+features = V700, shum700, train.acc = 0.733243, test.acc = 0.739967
+features = Uas, V700, shum700, train.acc = 0.735658, test.acc = 0.747074
+features = U700, Uas, V700, shum700, train.acc = 0.738527, test.acc = 0.750418
+features = Vas, U700, Uas, V700, shum700, train.acc = 0.736111, test.acc = 0.753763
+features = U500, Vas, U700, Uas, V700, shum700, train.acc = 0.734601, test.acc = 0.753344
+features = ulwrf, U500, Vas, U700, Uas, V700, shum700, train.acc = 0.737470, test.acc = 0.750836
+features = R850, ulwrf, U500, Vas, U700, Uas, V700, shum700, train.acc = 0.743810, test.acc = 0.747492
+mean
+features = shum700, train.acc = 0.705314, test.acc = 0.718645
+features = V700, shum700, train.acc = 0.733243, test.acc = 0.739967
+features = U925, V700, shum700, train.acc = 0.734149, test.acc = 0.757525
+features = P300, U925, V700, shum700, train.acc = 0.737923, test.acc = 0.757107
+harmonic-mean
+features = shum700, train.acc = 0.705314, test.acc = 0.718645
+features = V700, shum700, train.acc = 0.733243, test.acc = 0.739967
+features = U925, V700, shum700, train.acc = 0.734149, test.acc = 0.757525
+features = P300, U925, V700, shum700, train.acc = 0.737923, test.acc = 0.757107
