@@ -1,0 +1,15 @@
+test
+features = shum700, rmse.train = 7.816539, rmse.test = 7.870869, mean.error = 7.843704, hmean.error = 7.843610
+features = P500, shum700, rmse.train = 7.325810, rmse.test = 7.637336, mean.error = 7.481573, hmean.error = 7.478330
+features = U925, P500, shum700, rmse.train = 7.177318, rmse.test = 7.551261, mean.error = 7.364289, hmean.error = 7.359542
+features = shum925, U925, P500, shum700, rmse.train = 7.003270, rmse.test = 7.488483, mean.error = 7.245876, hmean.error = 7.237754
+features = temp700, shum925, U925, P500, shum700, rmse.train = 6.843962, rmse.test = 7.399714, mean.error = 7.121838, hmean.error = 7.110996
+features = U850, temp700, shum925, U925, P500, shum700, rmse.train = 6.630517, rmse.test = 7.365418, mean.error = 6.997968, hmean.error = 6.978673
+features = ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 6.435128, rmse.test = 7.337622, mean.error = 6.886375, hmean.error = 6.856806
+features = Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 6.310242, rmse.test = 7.285352, mean.error = 6.797797, hmean.error = 6.762828
+features = shum850, Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 6.142859, rmse.test = 7.276397, mean.error = 6.709628, hmean.error = 6.661753
+features = U500, shum850, Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 5.882341, rmse.test = 7.253235, mean.error = 6.567788, hmean.error = 6.496251
+features = temp500, U500, shum850, Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 5.642695, rmse.test = 7.244143, mean.error = 6.443419, hmean.error = 6.343913
+features = Tas, temp500, U500, shum850, Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 5.555141, rmse.test = 7.232117, mean.error = 6.393629, hmean.error = 6.283666
+features = temp850, Tas, temp500, U500, shum850, Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 5.470674, rmse.test = 7.225435, mean.error = 6.348054, hmean.error = 6.226789
+features = dswrf, temp850, Tas, temp500, U500, shum850, Temp, ulwrf, U850, temp700, shum925, U925, P500, shum700, rmse.train = 5.116021, rmse.test = 7.224862, mean.error = 6.170441, hmean.error = 5.990260
