@@ -1,0 +1,81 @@
+train
+features = shum700, rmse.train = 2.084193, rmse.test = 1.977769, mean.error = 2.030981, hmean.error = 2.029587
+features = P500, shum700, rmse.train = 2.007485, rmse.test = 1.949408, mean.error = 1.978446, hmean.error = 1.978020
+features = U700, P500, shum700, rmse.train = 1.950013, rmse.test = 1.951866, mean.error = 1.950939, hmean.error = 1.950939
+features = V700, U700, P500, shum700, rmse.train = 1.864666, rmse.test = 1.962915, mean.error = 1.913790, hmean.error = 1.912529
+features = Uas, V700, U700, P500, shum700, rmse.train = 1.746050, rmse.test = 1.973158, mean.error = 1.859604, hmean.error = 1.852670
+features = R500, Uas, V700, U700, P500, shum700, rmse.train = 1.593035, rmse.test = 1.967101, mean.error = 1.780068, hmean.error = 1.760416
+features = rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 1.427927, rmse.test = 1.953293, mean.error = 1.690610, hmean.error = 1.649795
+features = uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 1.268662, rmse.test = 1.923040, mean.error = 1.595851, hmean.error = 1.528769
+features = shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 1.137308, rmse.test = 1.897032, mean.error = 1.517170, hmean.error = 1.422062
+features = V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 1.046668, rmse.test = 1.877688, mean.error = 1.462178, hmean.error = 1.344102
+features = P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.994803, rmse.test = 1.873725, mean.error = 1.434264, hmean.error = 1.299613
+features = V850, P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.962597, rmse.test = 1.873615, mean.error = 1.418106, hmean.error = 1.271792
+features = R850, V850, P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.944043, rmse.test = 1.879331, mean.error = 1.411687, hmean.error = 1.256772
+features = shum400, R850, V850, P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.934448, rmse.test = 1.886938, mean.error = 1.410693, hmean.error = 1.249914
+features = U500, shum400, R850, V850, P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.927886, rmse.test = 1.890939, mean.error = 1.409412, hmean.error = 1.244899
+features = U925, U500, shum400, R850, V850, P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.924997, rmse.test = 1.895818, mean.error = 1.410408, hmean.error = 1.243347
+features = shum925, U925, U500, shum400, R850, V850, P850, V500, shum300, uswrf, rhum, R500, Uas, V700, U700, P500, shum700, rmse.train = 0.924906, rmse.test = 1.899310, mean.error = 1.412108, hmean.error = 1.244015
+test
+features = shum700, rmse.train = 2.084193, rmse.test = 1.977769, mean.error = 2.030981, hmean.error = 2.029587
+features = temp850, shum700, rmse.train = 2.042105, rmse.test = 1.943409, mean.error = 1.992757, hmean.error = 1.991535
+features = P300, temp850, shum700, rmse.train = 1.989599, rmse.test = 1.933791, mean.error = 1.961695, hmean.error = 1.961299
+features = U850, P300, temp850, shum700, rmse.train = 1.923583, rmse.test = 1.916603, mean.error = 1.920093, hmean.error = 1.920087
+features = temp700, U850, P300, temp850, shum700, rmse.train = 1.876196, rmse.test = 1.915524, mean.error = 1.895860, hmean.error = 1.895656
+features = ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.836136, rmse.test = 1.913565, mean.error = 1.874851, hmean.error = 1.874051
+features = V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.710245, rmse.test = 1.905873, mean.error = 1.808059, hmean.error = 1.802768
+features = V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.582478, rmse.test = 1.888168, mean.error = 1.735323, hmean.error = 1.721861
+features = shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.513956, rmse.test = 1.881212, mean.error = 1.697584, hmean.error = 1.677721
+features = temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.440919, rmse.test = 1.873475, mean.error = 1.657197, hmean.error = 1.628971
+features = Uas, temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.347281, rmse.test = 1.871240, mean.error = 1.609261, hmean.error = 1.566612
+features = Temp, Uas, temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.323149, rmse.test = 1.870208, mean.error = 1.596678, hmean.error = 1.549820
+features = uswrf, Temp, Uas, temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.210301, rmse.test = 1.868856, mean.error = 1.539579, hmean.error = 1.469155
+features = U700, uswrf, Temp, Uas, temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.143961, rmse.test = 1.867897, mean.error = 1.505929, hmean.error = 1.418926
+features = mslp, U700, uswrf, Temp, Uas, temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.097967, rmse.test = 1.865747, mean.error = 1.481857, hmean.error = 1.382407
+features = dlwrf, mslp, U700, uswrf, Temp, Uas, temp500, shum850, V700, V850, ulwrf, temp700, U850, P300, temp850, shum700, rmse.train = 1.083382, rmse.test = 1.865337, mean.error = 1.474360, hmean.error = 1.370678
+and
+features = shum700, rmse.train = 2.084193, rmse.test = 1.977769, mean.error = 2.030981, hmean.error = 2.029587
+features = P500, shum700, rmse.train = 2.007485, rmse.test = 1.949408, mean.error = 1.978446, hmean.error = 1.978020
+features = Temp, P500, shum700, rmse.train = 1.962377, rmse.test = 1.944300, mean.error = 1.953338, hmean.error = 1.953296
+features = U700, Temp, P500, shum700, rmse.train = 1.898515, rmse.test = 1.936856, mean.error = 1.917686, hmean.error = 1.917494
+features = V850, U700, Temp, P500, shum700, rmse.train = 1.809782, rmse.test = 1.911508, mean.error = 1.860645, hmean.error = 1.859255
+features = R850, V850, U700, Temp, P500, shum700, rmse.train = 1.719859, rmse.test = 1.903034, mean.error = 1.811446, hmean.error = 1.806816
+features = temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.676721, rmse.test = 1.901200, mean.error = 1.788961, hmean.error = 1.781919
+features = Uas, temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.557464, rmse.test = 1.895804, mean.error = 1.726634, hmean.error = 1.710060
+features = rhum, Uas, temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.406204, rmse.test = 1.890189, mean.error = 1.648196, hmean.error = 1.612666
+features = V500, rhum, Uas, temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.247495, rmse.test = 1.878027, mean.error = 1.562761, hmean.error = 1.499161
+features = shum300, V500, rhum, Uas, temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.117770, rmse.test = 1.868016, mean.error = 1.492893, hmean.error = 1.398635
+features = temp500, shum300, V500, rhum, Uas, temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.060769, rmse.test = 1.864413, mean.error = 1.462591, hmean.error = 1.352198
+features = P850, temp500, shum300, V500, rhum, Uas, temp925, R850, V850, U700, Temp, P500, shum700, rmse.train = 1.011255, rmse.test = 1.861846, mean.error = 1.436550, hmean.error = 1.310640
+or
+features = shum700, rmse.train = 2.084193, rmse.test = 1.977769, mean.error = 2.030981, hmean.error = 2.029587
+features = P500, shum700, rmse.train = 2.007485, rmse.test = 1.949408, mean.error = 1.978446, hmean.error = 1.978020
+features = Vas, P500, shum700, rmse.train = 1.971414, rmse.test = 1.928523, mean.error = 1.949969, hmean.error = 1.949733
+features = U700, Vas, P500, shum700, rmse.train = 1.885695, rmse.test = 1.925321, mean.error = 1.905508, hmean.error = 1.905302
+features = uswrf, U700, Vas, P500, shum700, rmse.train = 1.782434, rmse.test = 1.937824, mean.error = 1.860129, hmean.error = 1.856884
+features = V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.666976, rmse.test = 1.927321, mean.error = 1.797149, hmean.error = 1.787720
+features = V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.501182, rmse.test = 1.930826, mean.error = 1.716004, hmean.error = 1.689111
+features = rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.341742, rmse.test = 1.907404, mean.error = 1.624573, hmean.error = 1.575333
+features = Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.222416, rmse.test = 1.889955, mean.error = 1.556186, hmean.error = 1.484599
+features = dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.180736, rmse.test = 1.887450, mean.error = 1.534093, hmean.error = 1.452702
+features = V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.152115, rmse.test = 1.887973, mean.error = 1.520044, hmean.error = 1.430986
+features = V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.082052, rmse.test = 1.893246, mean.error = 1.487649, hmean.error = 1.377066
+features = ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.054101, rmse.test = 1.887088, mean.error = 1.470595, hmean.error = 1.352638
+features = U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.021507, rmse.test = 1.890343, mean.error = 1.455925, hmean.error = 1.326304
+features = U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 1.003001, rmse.test = 1.893505, mean.error = 1.448253, hmean.error = 1.311364
+features = U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.988450, rmse.test = 1.893686, mean.error = 1.441068, hmean.error = 1.298908
+features = Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.985070, rmse.test = 1.892667, mean.error = 1.438869, hmean.error = 1.295747
+features = shum925, Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.971878, rmse.test = 1.897098, mean.error = 1.434488, hmean.error = 1.285301
+features = shum850, shum925, Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.965203, rmse.test = 1.895984, mean.error = 1.430594, hmean.error = 1.279196
+features = shum500, shum850, shum925, Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.944913, rmse.test = 1.897435, mean.error = 1.421174, hmean.error = 1.261570
+features = shum300, shum500, shum850, shum925, Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.936398, rmse.test = 1.901627, mean.error = 1.419012, hmean.error = 1.254873
+features = P300, shum300, shum500, shum850, shum925, Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.934299, rmse.test = 1.906142, mean.error = 1.420220, hmean.error = 1.253965
+features = shum400, P300, shum300, shum500, shum850, shum925, Tas, U500, U925, U850, ulwrf, V700, V925, dswrf, Uas, rhum, V500, V850, uswrf, U700, Vas, P500, shum700, rmse.train = 0.933960, rmse.test = 1.912154, mean.error = 1.423057, hmean.error = 1.254957
+mean
+features = shum700, rmse.train = 2.084193, rmse.test = 1.977769, mean.error = 2.030981, hmean.error = 2.029587
+features = P500, shum700, rmse.train = 2.007485, rmse.test = 1.949408, mean.error = 1.978446, hmean.error = 1.978020
+features = Vas, P500, shum700, rmse.train = 1.971414, rmse.test = 1.928523, mean.error = 1.949969, hmean.error = 1.949733
+features = U700, Vas, P500, shum700, rmse.train = 1.885695, rmse.test = 1.925321, mean.error = 1.905508, hmean.error = 1.905302
+features = V500, U700, Vas, P500, shum700, rmse.train = 1.757915, rmse.test = 1.948089, mean.error = 1.853002, hmean.error = 1.848122
+features = P850, V500, U700, Vas, P500, shum700, rmse.train = 1.623146, rmse.test = 1.918217, mean.error = 1.770682, hmean.error = 1.758389
+features = uswrf, P850, V500, U700, Vas, P500, shum700, rmse.train = 1.470568, rmse.test = 1.913564, mean.error = 1.692066, hmean.error = 1.663071
